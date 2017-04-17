@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.opengl.MainActivity">
+
+    <Button
+        android:id="@+id/btn_2d"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:text="2D"
+        android:layout_height="40dp" />
+    <Button
+        android:id="@+id/btn_3d"
+        android:layout_below="@+id/btn_2d"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="3D"/>
+</RelativeLayout>
